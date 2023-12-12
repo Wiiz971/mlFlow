@@ -28,7 +28,12 @@
                                 PyPI (pip install mlflow)
                                 conda-forge (conda install -c conda-forge mlflow)
 
-* ```mlflow run . -e train -P epochs=2 -P lr=0.1 --env-manager="local"```
+* Executing the training jobs :
+   * Run the ```data_generator.py``` code to generate random data X and y (you can adjust to the size that you prefer)
+   * Don't forget to change the path of your artifact_location by yours ````MLFlow-main/mlruns/0/meta.yaml```` ![image](https://github.com/Wiiz971/mlFlow/assets/47423231/173dc794-9d42-4533-9137-0958b67fc736)
+
+*
+*    ```mlflow run . -e train -P epochs=2 -P lr=0.1 --env-manager="local"```
 * 
 
                                     
