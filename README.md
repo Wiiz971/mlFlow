@@ -24,16 +24,18 @@
     * torch==2.0.1
     * pytorch-lightning==2.0.6
     * tensorboard==2.14.0
-    * For navigating the intricate maze of Machine Learning model development, deployment, and management, I have used [mlflow](https://mlflow.org). You can install mlflow using the following 
-                                PyPI (pip install mlflow)
-                                conda-forge (conda install -c conda-forge mlflow)
+    * For navigating the intricate maze of Machine Learning model development, deployment, and management, I have used [mlflow](https://mlflow.org). You can install mlflow using the following
+       * PyPI (pip install mlflow)
+       * conda-forge (conda install -c conda-forge mlflow)
 
 * Executing the training jobs :
    * Run the ```data_generator.py``` code to generate random data X and y (you can adjust to the size that you prefer)
    * Don't forget to change the path of your artifact_location by yours ````MLFlow-main/mlruns/0/meta.yaml```` ![image](https://github.com/Wiiz971/mlFlow/assets/47423231/173dc794-9d42-4533-9137-0958b67fc736)
+   * Run individual hyperparameter sets. This is useful when trying to test the end-to-end code flow and ensuring the overall architecture is working. ```mlflow run . -e train -P epochs=2 -P lr=0.1 --env-manager="local"``` and adjust each parameter.
+   * Or run parallel execution of all hyperparameter sets. This is useful when trying to find the best model ```PARALLEL_RUNS.py```
+   * if you want to visualize the outputs run the command : ```mlflow ui``` then type in your browser ```http://127.0.0.1:5000/``` and un intuitive inferface will appear.
 
-*
-*    ```mlflow run . -e train -P epochs=2 -P lr=0.1 --env-manager="local"```
-* 
+
+
 
                                     
