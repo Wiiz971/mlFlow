@@ -1,9 +1,9 @@
-# Building Portable and Scalable MLOps Pipelines with mlFlow and Docker - Management of Compute Costs in Machine Learning Workflows developped for Advanced Database Systems at NTUST (Autumn 2023)
+# Building Portable and Scalable MLOps Pipelines with mlFlow and Docker - Management of Compute Costs in Machine Learning Workflows 
 
 #### General Informations :
 
-* [Depôt Github](https://github.com/Wiiz971/mlFlow/)
-Based on the foundational insights provided by "Database Virtualization: A New Frontier for Database Tuning and Physical Design", this project aims to manage the resource allocation. 
+* [Depôt Github](https://github.com/Wiiz971/mlFlow/) \n
+Based on the foundational insights provided by "Database Virtualization: A New Frontier for Database Tuning and Physical Design", this project aims to manage the resource allocation and and was developed as part of an academic project for Advanced Database Systems at NTUST (Autumn 2023)
 * Collaborators  :
     * [Vincent AZINCOURT](https://github.com/Wiiz971)
    
