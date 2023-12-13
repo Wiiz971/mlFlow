@@ -34,7 +34,9 @@
    * Don't forget to change the path of your artifact_location by yours ````MLFlow-main/mlruns/0/meta.yaml```` ![image](https://github.com/Wiiz971/mlFlow/assets/47423231/173dc794-9d42-4533-9137-0958b67fc736)
    * Run individual hyperparameter sets. This is useful when trying to test the end-to-end code flow and ensuring the overall architecture is working. ```mlflow run . -e train -P epochs=2 -P lr=0.1 --env-manager="local"``` and adjust each parameter.
    * Or run parallel execution of all hyperparameter sets. This is useful when trying to find the best model ```PARALLEL_RUNS.py```
-   * if you want to visualize the outputs run the command : ```mlflow ui``` then type in your browser ```http://127.0.0.1:5000/``` and an intuitive inferface will appear.
+   * if you want to visualize the outputs run the command : ```mlflow ui``` then type in your browser ```http://127.0.0.1:5000/``` and an intuitive inferface will appear. mlFlow offers a visual way to analyze different model runs across different metrics 
+     ![image](https://github.com/Wiiz971/mlFlow/assets/47423231/b0986cc4-f7fc-41da-a179-f100c02469c1)
+
 
 
 
